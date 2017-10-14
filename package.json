@@ -1,0 +1,35 @@
+{
+  "author": "elmopitt",
+  "name": "tny-plex",
+  "version": "1.0.0",
+  "description": "Library for accessing playlist and album information from a Plex server",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "elmopitt/tny-plex"
+  },
+  "bugs": {
+    "url": "https://github.com/elmopitt/tny-plex/issues"
+  },
+  "keywords": [
+    "plex",
+    "playlist",
+    "copy",
+    "export"
+  ],
+  "dependencies": {
+    "@types/jasmine": "^2.6.0",
+    "@types/node": "^8.0.34",
+    "tny-id3": "^1.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "typescript": "^2.4.0"
+  }
+}
