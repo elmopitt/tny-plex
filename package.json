@@ -26,10 +26,14 @@
   "dependencies": {
     "@types/jasmine": "^2.6.0",
     "@types/node": "^8.0.34",
-    "tny-id3": "^1.0.0"
+    "@types/xml2js": "^0.4.0",
+    "tny-id3": "^1.0.0",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "@types/nock": "^8.2.1",
     "jasmine": "^2.5.2",
+    "nock": "^9.0.27",
     "typescript": "^2.4.0"
   }
 }
